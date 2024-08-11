@@ -5,9 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "rolldown -c ./rolldown.config.js"
+    "build": "rolldown -c ./rolldown.config.js",
+    "build:rollup": "rollup -c ./rollup.config.js"
   },
   "dependencies": {
-    "rolldown": "^0.12.2"
+    "rolldown": "^0.12.2",
+    "rollup": "^4.20.0"
   }
 }
