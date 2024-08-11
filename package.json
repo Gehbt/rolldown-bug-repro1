@@ -1,0 +1,13 @@
+{
+  "name": "rolldown-bug-repro1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rolldown -c ./rolldown.config.js"
+  },
+  "dependencies": {
+    "rolldown": "^0.12.2"
+  }
+}
